@@ -18,6 +18,7 @@ export const viewport: Viewport = {
 
 // This adds default SEO tags to all pages in our app.
 // You can override them in each page passing params to getSOTags() function.
+// @ts-ignore
 export const metadata = getSEOTags();
 
 export default function RootLayout({ children }: { children: ReactNode }) {

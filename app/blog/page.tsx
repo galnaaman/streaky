@@ -4,6 +4,7 @@ import CardCategory from "./_assets/components/CardCategory";
 import config from "@/config";
 import { getSEOTags } from "@/libs/seo";
 
+// @ts-ignore
 export const metadata = getSEOTags({
   title: `${config.appName} Blog | Stripe Chargeback Protection`,
   description:

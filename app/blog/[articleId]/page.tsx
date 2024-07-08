@@ -13,6 +13,7 @@ export async function generateMetadata({
 }) {
   const article = articles.find((article) => article.slug === params.articleId);
 
+  // @ts-ignore
   return getSEOTags({
     title: article.title,
     description: article.description,

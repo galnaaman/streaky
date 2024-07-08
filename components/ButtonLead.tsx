@@ -45,12 +45,12 @@ const ButtonLead = ({ extraStyle }: { extraStyle?: string }) => {
         ref={inputRef}
         autoComplete="email"
         placeholder="tom@cruise.com"
-        className="input input-bordered w-full placeholder:opacity-60"
+        className="input input-bordered w-full placeholder:opacity-60 "
         onChange={(e) => setEmail(e.target.value)}
       />
 
       <button
-        className="btn btn-primary btn-block"
+        className="btn btn-warning btn-block"
         type="submit"
         disabled={isDisabled}
       >
